@@ -32,7 +32,7 @@ function App() {
         type="text"
         placeholder="Search Monster"
         className="search-box"
-        onChange={searchHandler}
+        onChangeHandler={searchHandler}
       ></SearchBox>
       <ClassList monsters={filteredMonsters}></ClassList>
     </div>

@@ -1,8 +1,8 @@
 import React from "react";
 import "./card.styles.css";
 
-function Card(props) {
-  const { id, name, email } = props.monster;
+function Card({ monster }) {
+  const { id, name, email } = monster;
   return (
     <div className="card-container">
       <img
