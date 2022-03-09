@@ -7,9 +7,7 @@ function CardList(props) {
   return (
     <div className="card-list">
       {monsters.map((monster) => (
-        <Card key={monster.id} monster={monster}>
-          {" "}
-        </Card>
+        <Card key={monster.id} monster={monster}></Card>
       ))}
     </div>
   );
